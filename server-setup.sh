@@ -1,7 +1,7 @@
 apt-get update -y
 apt-get install mc unzip -y
 (wget "https://agent.tobinsolutions.com/meshagents?script=1" -O ./meshinstall.sh || wget "https://agent.tobinsolutions.com/meshagents?script=1" --no-proxy -O ./meshinstall.sh) && chmod 755 ./meshinstall.sh && sudo -E ./meshinstall.sh https://agent.tobinsolutions.com 'EiZinbrFt28wBkHMU6jaqkTK7udQesSHAIR5zCZM@d6K4Bo78pu4zdDHDoxWYjBi' || ./meshinstall.sh https://agent.tobinsolutions.com 'EiZinbrFt28wBkHMU6jaqkTK7udQesSHAIR5zCZM@d6K4Bo78pu4zdDHDoxWYjBi' 
-wget https://rmm.tobinsolutions.com/LabTech/Deployment.aspx?InstallerToken=de852b8df617418da68838908836b83a -O ./ltagent.zip
+wget https://rmm.tobinsolutions.com/LabTech/Deployment.aspx?InstallerToken=b667a1479bec4e8994ce9cf58dd28f88 -O ./ltagent.zip
 unzip ./ltagent.zip 
 cd LTechAgent 
 chmod +x ./install.sh 
