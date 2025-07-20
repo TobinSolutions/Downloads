@@ -1,3 +1,4 @@
+timedatectl set-timezone America/Chicago
 apt-get update -y
 apt-get install mc unzip -y
 (wget "https://agent.tobinsolutions.com/meshagents?script=1" -O ./meshinstall.sh || wget "https://agent.tobinsolutions.com/meshagents?script=1" --no-proxy -O ./meshinstall.sh) && chmod 755 ./meshinstall.sh && sudo -E ./meshinstall.sh https://agent.tobinsolutions.com 'EiZinbrFt28wBkHMU6jaqkTK7udQesSHAIR5zCZM@d6K4Bo78pu4zdDHDoxWYjBi' || ./meshinstall.sh https://agent.tobinsolutions.com 'EiZinbrFt28wBkHMU6jaqkTK7udQesSHAIR5zCZM@d6K4Bo78pu4zdDHDoxWYjBi' 
