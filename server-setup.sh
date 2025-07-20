@@ -10,3 +10,5 @@ apt-get install webmin -y
 apt-get install libauthen-oath-perl -y 
 ufw enable 
 apt-get upgrade -y
+apt-get install qemu-guest-agent
+reboot
